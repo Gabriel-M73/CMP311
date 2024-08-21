@@ -16,4 +16,5 @@ if (num < 1 || num > 10)
 } while (num < 1 || num > 10)
     {
     num = Convert.ToInt32(Console.ReadLine()); // int32.Parse also works
-}
+} // check once again
+// once again 2
