@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-// commit and push for video
+// commit and push video
 
 namespace ClassRoster
 {
