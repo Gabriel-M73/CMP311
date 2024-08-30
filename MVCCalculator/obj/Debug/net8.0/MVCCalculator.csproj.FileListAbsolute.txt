@@ -1,0 +1,15 @@
+C:\CMP311\MVCCalculator\obj\Debug\net8.0\MVCCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\CMP311\MVCCalculator\obj\Debug\net8.0\MVCCalculator.AssemblyInfoInputs.cache
+C:\CMP311\MVCCalculator\obj\Debug\net8.0\MVCCalculator.AssemblyInfo.cs
+C:\CMP311\MVCCalculator\obj\Debug\net8.0\MVCCalculator.csproj.CoreCompileInputs.cache
+C:\CMP311\MVCCalculator\obj\Debug\net8.0\MVCCalculator.sourcelink.json
+C:\CMP311\MVCCalculator\bin\Debug\net8.0\MVCCalculator.exe
+C:\CMP311\MVCCalculator\bin\Debug\net8.0\MVCCalculator.deps.json
+C:\CMP311\MVCCalculator\bin\Debug\net8.0\MVCCalculator.runtimeconfig.json
+C:\CMP311\MVCCalculator\bin\Debug\net8.0\MVCCalculator.dll
+C:\CMP311\MVCCalculator\bin\Debug\net8.0\MVCCalculator.pdb
+C:\CMP311\MVCCalculator\obj\Debug\net8.0\MVCCalculator.dll
+C:\CMP311\MVCCalculator\obj\Debug\net8.0\refint\MVCCalculator.dll
+C:\CMP311\MVCCalculator\obj\Debug\net8.0\MVCCalculator.pdb
+C:\CMP311\MVCCalculator\obj\Debug\net8.0\MVCCalculator.genruntimeconfig.cache
+C:\CMP311\MVCCalculator\obj\Debug\net8.0\ref\MVCCalculator.dll
