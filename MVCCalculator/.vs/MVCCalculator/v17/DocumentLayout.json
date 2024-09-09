@@ -39,7 +39,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T18:29:35.228Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -54,7 +53,7 @@
               "RelativeDocumentMoniker": "CalculatorController.cs",
               "ToolTip": "C:\\CMP311\\MVCCalculator\\CalculatorController.cs",
               "RelativeToolTip": "CalculatorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T22:38:21.186Z",
               "EditorCaption": ""
@@ -67,10 +66,9 @@
               "RelativeDocumentMoniker": "CalculatorModel.cs",
               "ToolTip": "C:\\CMP311\\MVCCalculator\\CalculatorModel.cs",
               "RelativeToolTip": "CalculatorModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T19:33:21.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T19:33:21.451Z"
             },
             {
               "$type": "Document",
@@ -80,10 +78,9 @@
               "RelativeDocumentMoniker": "CalculatorView.cs",
               "ToolTip": "C:\\CMP311\\MVCCalculator\\CalculatorView.cs",
               "RelativeToolTip": "CalculatorView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T19:49:14.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T19:49:14.364Z"
             }
           ]
         }

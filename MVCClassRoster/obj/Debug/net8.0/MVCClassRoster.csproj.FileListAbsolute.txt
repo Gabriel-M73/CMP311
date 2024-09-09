@@ -1,0 +1,15 @@
+C:\Users\dankm\CMP311\MVCClassRoster\obj\Debug\net8.0\MVCClassRoster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dankm\CMP311\MVCClassRoster\obj\Debug\net8.0\MVCClassRoster.AssemblyInfoInputs.cache
+C:\Users\dankm\CMP311\MVCClassRoster\obj\Debug\net8.0\MVCClassRoster.AssemblyInfo.cs
+C:\Users\dankm\CMP311\MVCClassRoster\obj\Debug\net8.0\MVCClassRoster.csproj.CoreCompileInputs.cache
+C:\Users\dankm\CMP311\MVCClassRoster\obj\Debug\net8.0\MVCClassRoster.sourcelink.json
+C:\Users\dankm\CMP311\MVCClassRoster\bin\Debug\net8.0\MVCClassRoster.exe
+C:\Users\dankm\CMP311\MVCClassRoster\bin\Debug\net8.0\MVCClassRoster.deps.json
+C:\Users\dankm\CMP311\MVCClassRoster\bin\Debug\net8.0\MVCClassRoster.runtimeconfig.json
+C:\Users\dankm\CMP311\MVCClassRoster\bin\Debug\net8.0\MVCClassRoster.dll
+C:\Users\dankm\CMP311\MVCClassRoster\bin\Debug\net8.0\MVCClassRoster.pdb
+C:\Users\dankm\CMP311\MVCClassRoster\obj\Debug\net8.0\MVCClassRoster.dll
+C:\Users\dankm\CMP311\MVCClassRoster\obj\Debug\net8.0\refint\MVCClassRoster.dll
+C:\Users\dankm\CMP311\MVCClassRoster\obj\Debug\net8.0\MVCClassRoster.pdb
+C:\Users\dankm\CMP311\MVCClassRoster\obj\Debug\net8.0\MVCClassRoster.genruntimeconfig.cache
+C:\Users\dankm\CMP311\MVCClassRoster\obj\Debug\net8.0\ref\MVCClassRoster.dll
