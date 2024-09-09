@@ -19,9 +19,9 @@ namespace MVCClassRoster
 
         public void printRoster(List<Student> roster)
         {
-            foreach(Student student in roster)
+            foreach(Student students in roster)
             {
-                Console.WriteLine(student);
+                Console.WriteLine(students);
             }
         } // printRoster method
 

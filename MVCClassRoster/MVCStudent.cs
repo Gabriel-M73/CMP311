@@ -27,7 +27,7 @@ namespace MVCClassRoster
 
         public override string ToString()
         {
-            return string.Format("First Name:{0}, Last Name:{1}, ClassRank:{2}", FirstName, LastName, ClassRank);
+            return String.Format("First Name:{0}, Last Name:{1}, ClassRank:{2}", FirstName, LastName, ClassRank);
         } // overriding ToString for Student
 
     } // Student class inheriting from Person

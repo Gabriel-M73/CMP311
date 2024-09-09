@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.Generic.List;
 using System.Text;
 using MVCClassRoster;
 
@@ -9,12 +8,12 @@ namespace MVCClassRoster
     class ClassRosterModel
     {
         Instructor myInstructor;
-        List<Student> myStudentRoster;
+        List<Student> studentRoster;
 
         public ClassRosterModel()
         {
             myInstructor = new Instructor();
-            myStudentRoster = new List<Student>();
+            studentRoster = new List<Student>();
         } // ClassRosterModel ctor for instructor and studentRoster
 
         public void addInstructor(string firstName, string lastName, string contactInfo)
@@ -30,7 +29,7 @@ namespace MVCClassRoster
             myStudent.FirstName = firstName;
             myStudent.LastName = lastName;
             myStudent.ClassRank = classRank;
-            myStudentRoster.Add(myStudent);
+            studentRoster.Add(myStudent);
         } // addStudent method
 
         public Instructor getInstructor()
@@ -40,7 +39,7 @@ namespace MVCClassRoster
 
         public List<Student> getStudentRoster()
         {
-            return myStudentRoster;
+            return studentRoster;
         } // getStudentRoster
     } // ClassRosterModel class
 } // MVCClassRoster namespace

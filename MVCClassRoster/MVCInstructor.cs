@@ -27,7 +27,7 @@ namespace MVCClassRoster
 
         public override string ToString()
         {
-            return string.Format("First Name:{0}, Last Name:{1}, Contact Info:{2}", FirstName, LastName, ContactInfo);
+            return String.Format("First Name:{0}, Last Name:{1}, Contact Info:{2}", FirstName, LastName, ContactInfo);
         } // overriding ToString for Instructor
 
     } // Instructor class
