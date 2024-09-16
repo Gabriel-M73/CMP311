@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVCClassRoster
-build_property.ProjectDir = C:\Users\dankm\CMP311\MVCClassRoster\
+build_property.ProjectDir = C:\CMP311\MVCClassRoster\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

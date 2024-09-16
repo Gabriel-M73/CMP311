@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CMP311\\PricingEngine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F450E929-0765-4EB1-B0FE-8D14E8A9432A}|..\\PricingEngineTests\\PricingEngineTests.csproj|c:\\cmp311\\pricingenginetests\\pricingenginetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|c:\\cmp311\\pricingengine\\pricingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|solutionrelative:pricingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|c:\\cmp311\\pricingengine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PricingEngineTests.cs",
+              "DocumentMoniker": "C:\\CMP311\\PricingEngineTests\\PricingEngineTests.cs",
+              "RelativeDocumentMoniker": "..\\PricingEngineTests\\PricingEngineTests.cs",
+              "ToolTip": "C:\\CMP311\\PricingEngineTests\\PricingEngineTests.cs",
+              "RelativeToolTip": "..\\PricingEngineTests\\PricingEngineTests.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAIwHoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T16:45:31.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PricingEngine.cs",
+              "DocumentMoniker": "C:\\CMP311\\PricingEngine\\PricingEngine.cs",
+              "RelativeDocumentMoniker": "PricingEngine.cs",
+              "ToolTip": "C:\\CMP311\\PricingEngine\\PricingEngine.cs",
+              "RelativeToolTip": "PricingEngine.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T02:03:51.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CMP311\\PricingEngine\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\CMP311\\PricingEngine\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T16:43:02.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
