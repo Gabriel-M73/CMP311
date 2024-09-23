@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\CMP311\\PricingEngine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|c:\\cmp311\\pricingengine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F450E929-0765-4EB1-B0FE-8D14E8A9432A}|..\\PricingEngineTests\\PricingEngineTests.csproj|c:\\cmp311\\pricingenginetests\\pricingenginetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|c:\\cmp311\\pricingengine\\pricingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|solutionrelative:pricingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|c:\\cmp311\\pricingengine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,7 +29,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PricingEngineTests.cs",
               "DocumentMoniker": "C:\\CMP311\\PricingEngineTests\\PricingEngineTests.cs",
               "RelativeDocumentMoniker": "..\\PricingEngineTests\\PricingEngineTests.cs",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PricingEngine.cs",
               "DocumentMoniker": "C:\\CMP311\\PricingEngine\\PricingEngine.cs",
               "RelativeDocumentMoniker": "PricingEngine.cs",
@@ -55,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CMP311\\PricingEngine\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\CMP311\\PricingEngine\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwBkAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T16:43:02.199Z",
               "EditorCaption": ""

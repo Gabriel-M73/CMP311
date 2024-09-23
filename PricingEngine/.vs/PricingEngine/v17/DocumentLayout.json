@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F450E929-0765-4EB1-B0FE-8D14E8A9432A}|..\\PricingEngineTests\\PricingEngineTests.csproj|c:\\cmp311\\pricingenginetests\\pricingenginetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|c:\\cmp311\\pricingengine\\pricingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52C34737-CCF7-4583-B9BF-22756FC0CFA0}|PricingEngine.csproj|solutionrelative:pricingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F450E929-0765-4EB1-B0FE-8D14E8A9432A}|..\\PricingEngineTests\\PricingEngineTests.csproj|c:\\cmp311\\pricingenginetests\\pricingenginetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,7 +29,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PricingEngineTests.cs",
               "DocumentMoniker": "C:\\CMP311\\PricingEngineTests\\PricingEngineTests.cs",
               "RelativeDocumentMoniker": "..\\PricingEngineTests\\PricingEngineTests.cs",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PricingEngine.cs",
               "DocumentMoniker": "C:\\CMP311\\PricingEngine\\PricingEngine.cs",
               "RelativeDocumentMoniker": "PricingEngine.cs",
