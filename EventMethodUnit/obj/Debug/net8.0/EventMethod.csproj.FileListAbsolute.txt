@@ -1,0 +1,15 @@
+C:\CMP311\EventMethodUnit\bin\Debug\net8.0\EventMethod.exe
+C:\CMP311\EventMethodUnit\bin\Debug\net8.0\EventMethod.deps.json
+C:\CMP311\EventMethodUnit\bin\Debug\net8.0\EventMethod.runtimeconfig.json
+C:\CMP311\EventMethodUnit\bin\Debug\net8.0\EventMethod.dll
+C:\CMP311\EventMethodUnit\bin\Debug\net8.0\EventMethod.pdb
+C:\CMP311\EventMethodUnit\obj\Debug\net8.0\EventMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\CMP311\EventMethodUnit\obj\Debug\net8.0\EventMethod.AssemblyInfoInputs.cache
+C:\CMP311\EventMethodUnit\obj\Debug\net8.0\EventMethod.AssemblyInfo.cs
+C:\CMP311\EventMethodUnit\obj\Debug\net8.0\EventMethod.csproj.CoreCompileInputs.cache
+C:\CMP311\EventMethodUnit\obj\Debug\net8.0\EventMethod.sourcelink.json
+C:\CMP311\EventMethodUnit\obj\Debug\net8.0\EventMethod.dll
+C:\CMP311\EventMethodUnit\obj\Debug\net8.0\refint\EventMethod.dll
+C:\CMP311\EventMethodUnit\obj\Debug\net8.0\EventMethod.pdb
+C:\CMP311\EventMethodUnit\obj\Debug\net8.0\EventMethod.genruntimeconfig.cache
+C:\CMP311\EventMethodUnit\obj\Debug\net8.0\ref\EventMethod.dll

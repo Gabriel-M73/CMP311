@@ -1,0 +1,15 @@
+C:\CMP311\InterfaceAndDI\bin\Debug\net8.0\InterfaceAndDI.exe
+C:\CMP311\InterfaceAndDI\bin\Debug\net8.0\InterfaceAndDI.deps.json
+C:\CMP311\InterfaceAndDI\bin\Debug\net8.0\InterfaceAndDI.runtimeconfig.json
+C:\CMP311\InterfaceAndDI\bin\Debug\net8.0\InterfaceAndDI.dll
+C:\CMP311\InterfaceAndDI\bin\Debug\net8.0\InterfaceAndDI.pdb
+C:\CMP311\InterfaceAndDI\obj\Debug\net8.0\InterfaceAndDI.GeneratedMSBuildEditorConfig.editorconfig
+C:\CMP311\InterfaceAndDI\obj\Debug\net8.0\InterfaceAndDI.AssemblyInfoInputs.cache
+C:\CMP311\InterfaceAndDI\obj\Debug\net8.0\InterfaceAndDI.AssemblyInfo.cs
+C:\CMP311\InterfaceAndDI\obj\Debug\net8.0\InterfaceAndDI.csproj.CoreCompileInputs.cache
+C:\CMP311\InterfaceAndDI\obj\Debug\net8.0\InterfaceAndDI.sourcelink.json
+C:\CMP311\InterfaceAndDI\obj\Debug\net8.0\InterfaceAndDI.dll
+C:\CMP311\InterfaceAndDI\obj\Debug\net8.0\refint\InterfaceAndDI.dll
+C:\CMP311\InterfaceAndDI\obj\Debug\net8.0\InterfaceAndDI.pdb
+C:\CMP311\InterfaceAndDI\obj\Debug\net8.0\InterfaceAndDI.genruntimeconfig.cache
+C:\CMP311\InterfaceAndDI\obj\Debug\net8.0\ref\InterfaceAndDI.dll

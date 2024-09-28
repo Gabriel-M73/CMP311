@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CMP311\\EventMethodUnit\\EventMethodUnit.csproj",
-      "projectName": "EventMethodUnit",
-      "projectPath": "C:\\CMP311\\EventMethodUnit\\EventMethodUnit.csproj",
+      "projectUniqueName": "C:\\CMP311\\EventMethodUnit\\EventMethod.csproj",
+      "projectName": "EventMethod",
+      "projectPath": "C:\\CMP311\\EventMethodUnit\\EventMethod.csproj",
       "packagesPath": "C:\\Users\\dankm\\.nuget\\packages\\",
       "outputPath": "C:\\CMP311\\EventMethodUnit\\obj\\",
       "projectStyle": "PackageReference",

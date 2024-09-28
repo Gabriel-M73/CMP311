@@ -1,27 +1,27 @@
 ﻿namespace EventInterface
 {
-    interface IScrewdriver
+    public interface IScrewdriver
     {
-        void fastenerType();
-        void handleType();
-        void priceTag();
+        void FastenerType();
+        void HandleType();
+        void PriceTag();
     }
-    interface IHammer
+    public interface IHammer
     {
-        void fastenerType();
-        void handleType();
-        void priceTag();
+        void FastenerType();
+        void HandleType();
+        void PriceTag();
     }
-    interface IWrench
+    public interface IWrench
     {
-        void fastenerType();
-        void handleType();
-        void priceTag();
+        void FastenerType();
+        void HandleType();
+        void PriceTag();
     }
 
-    interface IRentEngine
+    public interface IRentEngine
     {
-        double RentalEngine(string code, ToolInfo tool);
+        double RentalEngine(string code);
     }
 
     public class ToolInfo
@@ -31,9 +31,10 @@
         string handleMaterial; // description
         double rentPrice; // fee
 
-        public ToolInfo(string newName, string newHandleMat, double newPrice)
+        public ToolInfo(string newName, string newFastener, string newHandleMat, double newPrice)
         {
             name = newName;
+            fastener = newFastener;
             handleMaterial = newHandleMat;
             rentPrice = newPrice;
         }
@@ -61,87 +62,86 @@
 
         public override string ToString()
         {
-            return "Tool Name: " + Name.ToString() + ", useable on: " + Fastener.ToString() + ", handle material: " + HandleMaterial.ToString() + ", rent price: " + RentPrice.ToString() + "\n";
+            return "Tool Name: " + Name.ToString() + ", fastener: " + Fastener.ToString() + ", handle material: " 
+                + HandleMaterial.ToString() + ", rent price: " + RentPrice.ToString();
         }
     } // ToolInfo class
 
     public class Tool : IScrewdriver, IHammer, IWrench, IRentEngine
     {
         private ToolInfo tool;
-        public Tool(string newName, string newHandleMat, double newPrice)
+        public Tool(string newName, string newFastener, string newHandleMat, double newPrice)
         {
-            tool = new ToolInfo(newName, newHandleMat, newPrice);
+            tool = new ToolInfo(newName, newFastener, newHandleMat, newPrice);
         }
 
-        void IScrewdriver.fastenerType()
+        void IScrewdriver.FastenerType()
         {
-            tool.Fastener = "screws";
             Console.WriteLine("Screwdriver fastener type: " + tool.Fastener);
         }
-        void IScrewdriver.handleType()
+        void IScrewdriver.HandleType()
         {
             Console.WriteLine("Screwdriver handle material: " + tool.HandleMaterial);
         }
-        void IScrewdriver.priceTag()
+        void IScrewdriver.PriceTag()
         {
             Console.WriteLine("Screwdriver rent price: " + tool.RentPrice);
         }
         // end of Screwdriver methods
-        void IHammer.fastenerType()
+        void IHammer.FastenerType()
         {
-            tool.Fastener = "nails";
             Console.WriteLine("Hammer fastener type: " + tool.Fastener);
         }
-        void IHammer.handleType()
+        void IHammer.HandleType()
         {
             Console.WriteLine("Hammer handle material: " + tool.HandleMaterial);
         }
-        void IHammer.priceTag()
+        void IHammer.PriceTag()
         {
             Console.WriteLine("Hammer rent price: " + tool.RentPrice);
         }
         // end of Hammer methods
 
-        void IWrench.fastenerType()
+        void IWrench.FastenerType()
         {
-            tool.Fastener = "nuts and bolts";
             Console.WriteLine("Wrench fastener type: " + tool.Fastener);
         }
-        void IWrench.handleType()
+        void IWrench.HandleType()
         {
             Console.WriteLine("Wrench handle material: " + tool.HandleMaterial);
         }
-        void IWrench.priceTag()
+        void IWrench.PriceTag()
         {
             Console.WriteLine("Wrench rent price: " + tool.RentPrice);
         }
         // end of Wrench methods
 
-        double IRentEngine.RentalEngine(string code, ToolInfo tool)
+        double IRentEngine.RentalEngine(string code)
         {
             string rentalCode = code.ToUpper();
             if (rentalCode == "D")
             {
-                this.tool.RentPrice = this.tool.RentPrice - (this.tool.RentPrice * 0.10);
+                tool.RentPrice = tool.RentPrice - (tool.RentPrice * 0.10);
             }
             else if (rentalCode == "E")
             {
-                this.tool.RentPrice = this.tool.RentPrice - (this.tool.RentPrice * 0.25);
+                tool.RentPrice = tool.RentPrice - (tool.RentPrice * 0.25);
             }
             else if (rentalCode == "F")
             {
-                this.tool.RentPrice = 0.00;
+                tool.RentPrice = 0.00;
             }
             else if (rentalCode == "L")
             {
-                this.tool.RentPrice = this.tool.RentPrice + (this.tool.RentPrice * 0.10);
+                tool.RentPrice = tool.RentPrice + (tool.RentPrice * 0.10);
             }
             else
             {
-                this.tool.RentPrice = this.tool.RentPrice;
+                tool.RentPrice = tool.RentPrice;
             }
             return tool.RentPrice;
         }
+
         public override string ToString()
         {
             return tool.ToString();
@@ -155,43 +155,49 @@
             Console.WriteLine("Tool Rentals");
             Console.WriteLine("------------");
             Console.WriteLine("Enter the rented tool");
-            Console.WriteLine("'S' for Screwdrivers, 'H' for Hammers, 'W' Wrenches");
-            string toolInput = Console.ReadLine().ToUpper();
+            Console.WriteLine("'Screwdriver', 'Hammer', or 'Wrench'");
+            string toolInput = Console.ReadLine();
+            Console.WriteLine("Enter fastener type");
+            string fastenerInput = Console.ReadLine();
             Console.WriteLine("Enter handle material");
             string handleInput = Console.ReadLine();
             Console.WriteLine("Enter rent price");
             double priceInput = Convert.ToDouble(Console.ReadLine());
-            string inputCode;
-            if (toolInput == "S")
+            
+            Tool tool = new Tool(toolInput, fastenerInput, handleInput, priceInput);
+            IScrewdriver screwdriver;
+            IHammer hammer;
+            IWrench wrench;
+            if (toolInput == "Screwdriver")
             {
-                IScrewdriver screwdriver = new Tool("Screwdriver", handleInput, priceInput);
+                screwdriver = tool;
                 Console.WriteLine("Enter Code");
                 Console.WriteLine("'D' for discount, 'E' for employee, 'F' for free, 'L' for Late");
-                inputCode = Console.ReadLine();
-                IRentEngine.RentalEngine(inputCode, tool);
-            }
-            else if (toolInput == "T")
-            {
-                IHammer hammer = new Tool("Hammer", handleInput, priceInput);
-            }
-            else if (toolInput == "W")
-            {
-                IWrench wrench = new Tool("Wrench", handleInput, priceInput);
-            }
-            else
-            {
-                Console.WriteLine("Try Again");
-                Console.WriteLine("Enter the rented tool");
-                Console.WriteLine("'S' for Screwdrivers, 'H' for Hammers, 'W' Wrenches");
-                toolInput = Console.ReadLine().ToUpper();
-                Console.WriteLine("Enter handle material");
-                handleInput = Console.ReadLine();
-                Console.WriteLine("Enter rent price");
-                priceInput = Convert.ToDouble(Console.ReadLine());
-            }
+                IRentEngine RentEngine = (IRentEngine)screwdriver;
+                RentEngine.RentalEngine(Console.ReadLine());
 
+                Console.WriteLine(screwdriver);
+            }
+            else if (toolInput == "Hammer")
+            {
+                hammer = tool;
+                Console.WriteLine("Enter Code");
+                Console.WriteLine("'D' for discount, 'E' for employee, 'F' for free, 'L' for Late");
+                IRentEngine RentEngine = (IRentEngine)hammer;
+                RentEngine.RentalEngine(Console.ReadLine());
 
-            Console.ReadLine();
+                Console.WriteLine(hammer);
+            }
+            else if (toolInput == "Wrench")
+            {
+                wrench = tool;
+                Console.WriteLine("Enter Code");
+                Console.WriteLine("'D' for discount, 'E' for employee, 'F' for free, 'L' for Late");
+                IRentEngine RentEngine = (IRentEngine)wrench;
+                RentEngine.RentalEngine(Console.ReadLine());
+
+                Console.WriteLine(wrench);
+            }
         } // Main
     } // Program class
 } // namespace
