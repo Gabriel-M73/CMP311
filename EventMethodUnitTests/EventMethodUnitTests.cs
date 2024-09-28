@@ -99,5 +99,29 @@ namespace EventMethodUnitTests
             // assert
             Assert.AreEqual(code, 55.00);
         }
+
+        [TestMethod]
+        public void RentalEngine_NothingEntered()
+        {
+            // arrange
+            Tool tool = new Tool("Tool", "Fastener", "Handle", 50.00);
+            IRentEngine rentEngine = tool;
+            // act
+            double code = rentEngine.RentalEngine("");
+            // assert
+            Assert.AreEqual(code, 50.00);
+        }
+
+        [TestMethod]
+        public void RentalEngine_AnyOtherInput()
+        {
+            // arrange
+            Tool tool = new Tool("Tool", "Fastener", "Handle", 50.00);
+            IRentEngine rentEngine = tool;
+            // act
+            double code = rentEngine.RentalEngine("7");
+            // assert
+            Assert.AreEqual(code, 50.00);
+        }
     }
 }

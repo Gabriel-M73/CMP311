@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventMethodUnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35b972d3fa42a068e4d85cf4aaba30cbba78dd55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a011f2011eaa43694b915a5cfe739d40bcd6d383")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventMethodUnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventMethodUnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
