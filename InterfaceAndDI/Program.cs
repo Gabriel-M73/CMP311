@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace InterfaceAndDI
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ILogger loggerFile = new FileLogger();
+            ProductService productService1 = new ProductService(loggerFile);
+            productService1.Log("First log entry.");
+        }
+    }
+}

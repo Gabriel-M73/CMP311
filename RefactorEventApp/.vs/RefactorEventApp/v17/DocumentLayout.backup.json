@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CMP311\\RefactorEventApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\powertoolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:powertoolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\toolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:toolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\irentengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:irentengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\iimpactwrench.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:iimpactwrench.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\powertool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:powertool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\iscrewdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:iscrewdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\toolinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:toolinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\ihammer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:ihammer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\iimpactdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:iimpactdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\iwrench.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:iwrench.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAQwHcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:13:37.877Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToolService.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\ToolService.cs",
+              "RelativeDocumentMoniker": "ToolService.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\ToolService.cs",
+              "RelativeToolTip": "ToolService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:38:33.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PowerToolService.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\PowerToolService.cs",
+              "RelativeDocumentMoniker": "PowerToolService.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\PowerToolService.cs",
+              "RelativeToolTip": "PowerToolService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:45:03.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PowerTool.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\PowerTool.cs",
+              "RelativeDocumentMoniker": "PowerTool.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\PowerTool.cs",
+              "RelativeToolTip": "PowerTool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:40:18.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRentEngine.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\IRentEngine.cs",
+              "RelativeDocumentMoniker": "IRentEngine.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\IRentEngine.cs",
+              "RelativeToolTip": "IRentEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:26:24.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IScrewdriver.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\IScrewdriver.cs",
+              "RelativeDocumentMoniker": "IScrewdriver.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\IScrewdriver.cs",
+              "RelativeToolTip": "IScrewdriver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:00:09.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IImpactWrench.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\IImpactWrench.cs",
+              "RelativeDocumentMoniker": "IImpactWrench.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\IImpactWrench.cs",
+              "RelativeToolTip": "IImpactWrench.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:09:52.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tool.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\Tool.cs",
+              "RelativeDocumentMoniker": "Tool.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\Tool.cs",
+              "RelativeToolTip": "Tool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:29:59.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ToolInfo.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\ToolInfo.cs",
+              "RelativeDocumentMoniker": "ToolInfo.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\ToolInfo.cs",
+              "RelativeToolTip": "ToolInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:27:51.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IImpactDriver.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\IImpactDriver.cs",
+              "RelativeDocumentMoniker": "IImpactDriver.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\IImpactDriver.cs",
+              "RelativeToolTip": "IImpactDriver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:07:18.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IWrench.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\IWrench.cs",
+              "RelativeDocumentMoniker": "IWrench.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\IWrench.cs",
+              "RelativeToolTip": "IWrench.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:25:32.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IHammer.cs",
+              "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\IHammer.cs",
+              "RelativeDocumentMoniker": "IHammer.cs",
+              "ToolTip": "C:\\CMP311\\RefactorEventApp\\IHammer.cs",
+              "RelativeToolTip": "IHammer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:24:05.916Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

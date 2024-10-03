@@ -1,0 +1,15 @@
+C:\CMP311\RefactorEventApp\bin\Debug\net8.0\RefactorEventApp.exe
+C:\CMP311\RefactorEventApp\bin\Debug\net8.0\RefactorEventApp.deps.json
+C:\CMP311\RefactorEventApp\bin\Debug\net8.0\RefactorEventApp.runtimeconfig.json
+C:\CMP311\RefactorEventApp\bin\Debug\net8.0\RefactorEventApp.dll
+C:\CMP311\RefactorEventApp\bin\Debug\net8.0\RefactorEventApp.pdb
+C:\CMP311\RefactorEventApp\obj\Debug\net8.0\RefactorEventApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\CMP311\RefactorEventApp\obj\Debug\net8.0\RefactorEventApp.AssemblyInfoInputs.cache
+C:\CMP311\RefactorEventApp\obj\Debug\net8.0\RefactorEventApp.AssemblyInfo.cs
+C:\CMP311\RefactorEventApp\obj\Debug\net8.0\RefactorEventApp.csproj.CoreCompileInputs.cache
+C:\CMP311\RefactorEventApp\obj\Debug\net8.0\RefactorEventApp.sourcelink.json
+C:\CMP311\RefactorEventApp\obj\Debug\net8.0\RefactorEventApp.dll
+C:\CMP311\RefactorEventApp\obj\Debug\net8.0\refint\RefactorEventApp.dll
+C:\CMP311\RefactorEventApp\obj\Debug\net8.0\RefactorEventApp.pdb
+C:\CMP311\RefactorEventApp\obj\Debug\net8.0\RefactorEventApp.genruntimeconfig.cache
+C:\CMP311\RefactorEventApp\obj\Debug\net8.0\ref\RefactorEventApp.dll
