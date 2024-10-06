@@ -7,28 +7,28 @@
       "RelativeMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|c:\\cmp311\\interfaceanddi\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|solutionrelative:ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|c:\\cmp311\\interfaceanddi\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|solutionrelative:filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|c:\\cmp311\\interfaceanddi\\databaselogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|solutionrelative:databaselogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|c:\\cmp311\\interfaceanddi\\cloudlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|solutionrelative:cloudlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|c:\\cmp311\\interfaceanddi\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|solutionrelative:productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|c:\\cmp311\\interfaceanddi\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|solutionrelative:filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|c:\\cmp311\\interfaceanddi\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|solutionrelative:ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|c:\\cmp311\\interfaceanddi\\somelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|solutionrelative:somelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|c:\\cmp311\\interfaceanddi\\cloudlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D813D2-67DB-4AAD-9ACD-5E3BF22E9DE9}|InterfaceAndDI.csproj|solutionrelative:cloudlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "SomeLogger.cs",
               "DocumentMoniker": "C:\\CMP311\\InterfaceAndDI\\SomeLogger.cs",
               "RelativeDocumentMoniker": "SomeLogger.cs",
@@ -68,11 +68,12 @@
               "RelativeToolTip": "SomeLogger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T17:32:37.515Z"
+              "WhenOpened": "2024-09-27T17:32:37.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CloudLogger.cs",
               "DocumentMoniker": "C:\\CMP311\\InterfaceAndDI\\CloudLogger.cs",
               "RelativeDocumentMoniker": "CloudLogger.cs",
@@ -80,12 +81,11 @@
               "RelativeToolTip": "CloudLogger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T17:32:08.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T17:32:08.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DataBaseLogger.cs",
               "DocumentMoniker": "C:\\CMP311\\InterfaceAndDI\\DataBaseLogger.cs",
               "RelativeDocumentMoniker": "DataBaseLogger.cs",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FileLogger.cs",
               "DocumentMoniker": "C:\\CMP311\\InterfaceAndDI\\FileLogger.cs",
               "RelativeDocumentMoniker": "FileLogger.cs",
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\CMP311\\InterfaceAndDI\\ProductService.cs",
               "RelativeDocumentMoniker": "ProductService.cs",
@@ -124,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ILogger.cs",
               "DocumentMoniker": "C:\\CMP311\\InterfaceAndDI\\ILogger.cs",
               "RelativeDocumentMoniker": "ILogger.cs",

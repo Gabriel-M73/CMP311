@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace RefactorEventApp
 {
-    public class PowerTool : ITool
+    public class HandTool : ITool
     {
         private ToolInfo tool;
-        public PowerTool(string newName, string newFastener, string newHandleMat, double newPrice)
+        public HandTool(string newName, string newFastener, string newHandleOrPowerType, double newPrice)
         {
-            tool = new ToolInfo(newName, newFastener, newHandleMat, newPrice);
+            tool = new ToolInfo(newName, newFastener, newHandleOrPowerType, newPrice);
         }
 
         void ITool.ToolName()
@@ -31,47 +31,47 @@ namespace RefactorEventApp
             Console.WriteLine("$" + tool.RentPrice);
         }
 
-        //void IImpactDriver.FastenerType()
+        //void IScrewdriver.FastenerType()
         //{
-        //    Console.WriteLine("Impact Driver fastener type: " + tool.Fastener);
+        //    Console.WriteLine("Screwdriver fastener type: " + tool.Fastener);
         //}
-        //void IImpactDriver.PowerType()
+        //void IScrewdriver.HandleType()
         //{
-        //    Console.WriteLine("Impact Driver power type: " + tool.HandleOrPowerType);
+        //    Console.WriteLine("Screwdriver handle material: " + tool.HandleOrPowerType);
         //}
-        //void IImpactDriver.PriceTag()
+        //void IScrewdriver.PriceTag()
         //{
-        //    Console.WriteLine("Impact Driver rent price: " + tool.RentPrice);
+        //    Console.WriteLine("Screwdriver rent price: " + tool.RentPrice);
         //}
-        //// end of ImpactDriver methods
+        //// end of Screwdriver methods
 
-        //void INailGun.FastenerType()
+        //void IHammer.FastenerType()
         //{
-        //    Console.WriteLine("Nail Gun fastener type: " + tool.Fastener);
+        //    Console.WriteLine("Hammer fastener type: " + tool.Fastener);
         //}
-        //void INailGun.PowerType()
+        //void IHammer.HandleType()
         //{
-        //    Console.WriteLine("Nail Gun power type: " + tool.HandleOrPowerType);
+        //    Console.WriteLine("Hammer handle material: " + tool.HandleOrPowerType);
         //}
-        //void INailGun.PriceTag()
+        //void IHammer.PriceTag()
         //{
-        //    Console.WriteLine("Nail Gun rent price: " + tool.RentPrice);
+        //    Console.WriteLine("Hammer rent price: " + tool.RentPrice);
         //}
-        //// end of NailGun methods
+        //// end of Hammer methods
 
-        //void IImpactWrench.FastenerType()
+        //void IWrench.FastenerType()
         //{
-        //    Console.WriteLine("Impact Wrench fastener type: " + tool.Fastener);
+        //    Console.WriteLine("Wrench fastener type: " + tool.Fastener);
         //}
-        //void IImpactWrench.PowerType()
+        //void IWrench.HandleType()
         //{
-        //    Console.WriteLine("Impact Wrench power type: " + tool.HandleOrPowerType);
+        //    Console.WriteLine("Wrench handle material: " + tool.HandleOrPowerType);
         //}
-        //void IImpactWrench.PriceTag()
+        //void IWrench.PriceTag()
         //{
-        //    Console.WriteLine("Impact Wrench rent price: " + tool.RentPrice);
+        //    Console.WriteLine("Wrench rent price: " + tool.RentPrice);
         //}
-        //// end of ImpactDriver methods
+        //// end of Wrench methods
 
         //double IRentEngine.RentalEngine(string code)
         //{
@@ -103,5 +103,5 @@ namespace RefactorEventApp
         {
             return tool.ToString();
         }
-    } // PowerTool class
+    } // Tool class
 }

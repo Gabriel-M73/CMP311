@@ -8,64 +8,80 @@ namespace RefactorEventApp
 {
     public class ToolService
     {
-        private readonly IScrewdriver _screwdriver;
-        private readonly IHammer _hammer;
-        private readonly IWrench _wrench;
-        private readonly IRentEngine _rentEngine;
-        public ToolService(IScrewdriver screwdriver, IHammer hammer, IWrench wrench, IRentEngine rentEngine)
-        {
-            _screwdriver = screwdriver;
-            _hammer = hammer;
-            _wrench = wrench;
-            _rentEngine = rentEngine;
-        }
-        
-        public void SFastenerType()
-        {
-            _screwdriver.FastenerType();
-        }
-        public void SHandleType()
-        {
-            _screwdriver.HandleType();
-        }
-        public void SPriceTag()
-        {
-            _screwdriver.PriceTag();
-        }
-        // end of screwdriver methods
+        private readonly ITool _tool;
 
-        public void HFastenerType()
+        //private readonly IScrewdriver _screwdriver;
+        //private readonly IHammer _hammer;
+        //private readonly IWrench _wrench;
+        //private readonly IRentEngine _rentEngine;
+        public ToolService(ITool tool)
         {
-            _hammer.FastenerType();
+            _tool = tool;
         }
-        public void HHandleType()
-        {
-            _hammer.HandleType();
-        }
-        public void HPriceTag()
-        {
-            _hammer.PriceTag();
-        }
-        // end of hammer methods
 
-        public void WFastenerType()
+        public void ToolName()
         {
-            _wrench.FastenerType();
+            _tool.ToolName();
         }
-        public void WHandleType()
+        public void FastenerType()
         {
-            _wrench.HandleType();
+            _tool.FastenerType();
         }
-        public void WPriceTag()
+        public void HandleOrPowerType()
         {
-            _wrench.PriceTag();
+            _tool.HandleOrPowerType();
         }
-        // end of wrench methods
+        public void PriceTag()
+        {
+            _tool.PriceTag();
+        }
 
-        public void RentalEngine(string code)
-        {
-            _rentEngine.RentalEngine(code);
-        }
+        //public void SFastenerType()
+        //{
+        //    _screwdriver.FastenerType();
+        //}
+        //public void SHandleType()
+        //{
+        //    _screwdriver.HandleType();
+        //}
+        //public void SPriceTag()
+        //{
+        //    _screwdriver.PriceTag();
+        //}
+        //// end of screwdriver methods
+
+        //public void HFastenerType()
+        //{
+        //    _hammer.FastenerType();
+        //}
+        //public void HHandleType()
+        //{
+        //    _hammer.HandleType();
+        //}
+        //public void HPriceTag()
+        //{
+        //    _hammer.PriceTag();
+        //}
+        //// end of hammer methods
+
+        //public void WFastenerType()
+        //{
+        //    _wrench.FastenerType();
+        //}
+        //public void WHandleType()
+        //{
+        //    _wrench.HandleType();
+        //}
+        //public void WPriceTag()
+        //{
+        //    _wrench.PriceTag();
+        //}
+        //// end of wrench methods
+
+        //public void RentalEngine(string code)
+        //{
+        //    _rentEngine.RentalEngine(code);
+        //}
 
     }// ToolService class
 } // namespace
