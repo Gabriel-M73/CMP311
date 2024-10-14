@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\CMP311\\RefactorEventApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\powertool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:powertool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\itool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:itool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\handtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:handtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\powertool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:powertool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\toolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:toolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\itool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|solutionrelative:itool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A239EA1E-7059-4CF2-B244-F2E4FB2E9E44}|RefactorEventApp.csproj|c:\\cmp311\\refactoreventapp\\toolinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\CMP311\\RefactorEventApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T16:13:37.877Z",
               "IsPinned": true,
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ITool.cs",
               "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\ITool.cs",
               "RelativeDocumentMoniker": "ITool.cs",
@@ -74,33 +74,36 @@
               "RelativeDocumentMoniker": "HandTool.cs",
               "ToolTip": "C:\\CMP311\\RefactorEventApp\\HandTool.cs",
               "RelativeToolTip": "HandTool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:29:59.594Z"
+              "WhenOpened": "2024-09-30T16:29:59.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PowerTool.cs",
               "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\PowerTool.cs",
               "RelativeDocumentMoniker": "PowerTool.cs",
               "ToolTip": "C:\\CMP311\\RefactorEventApp\\PowerTool.cs",
               "RelativeToolTip": "PowerTool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T21:37:17.305Z"
+              "WhenOpened": "2024-10-06T21:37:17.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ToolService.cs",
               "DocumentMoniker": "C:\\CMP311\\RefactorEventApp\\ToolService.cs",
               "RelativeDocumentMoniker": "ToolService.cs",
               "ToolTip": "C:\\CMP311\\RefactorEventApp\\ToolService.cs",
               "RelativeToolTip": "ToolService.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowCMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T16:38:33.417Z"
+              "WhenOpened": "2024-10-02T16:38:33.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

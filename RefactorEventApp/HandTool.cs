@@ -16,7 +16,7 @@ namespace RefactorEventApp
 
         void ITool.ToolName()
         {
-            Console.WriteLine(tool.Name);
+            Console.WriteLine("Hand Tool: " + tool.Name);
         }
         void ITool.FastenerType()
         {
