@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\CMP311\\ToolsAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7C709A3D-A24C-4FA0-88E0-56BDC1E70A2D}|ToolsAPI.csproj|c:\\cmp311\\toolsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C709A3D-A24C-4FA0-88E0-56BDC1E70A2D}|ToolsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C709A3D-A24C-4FA0-88E0-56BDC1E70A2D}|ToolsAPI.csproj|c:\\cmp311\\toolsapi\\controllers\\toolitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C709A3D-A24C-4FA0-88E0-56BDC1E70A2D}|ToolsAPI.csproj|solutionrelative:controllers\\toolitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C709A3D-A24C-4FA0-88E0-56BDC1E70A2D}|ToolsAPI.csproj|c:\\cmp311\\toolsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C709A3D-A24C-4FA0-88E0-56BDC1E70A2D}|ToolsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C709A3D-A24C-4FA0-88E0-56BDC1E70A2D}|ToolsAPI.csproj|c:\\cmp311\\toolsapi\\models\\toolitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C709A3D-A24C-4FA0-88E0-56BDC1E70A2D}|ToolsAPI.csproj|solutionrelative:models\\toolitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C709A3D-A24C-4FA0-88E0-56BDC1E70A2D}|ToolsAPI.csproj|c:\\cmp311\\toolsapi\\models\\toolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,27 +35,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ToolItemsController.cs",
-              "DocumentMoniker": "C:\\CMP311\\ToolsAPI\\Controllers\\ToolItemsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ToolItemsController.cs",
-              "ToolTip": "C:\\CMP311\\ToolsAPI\\Controllers\\ToolItemsController.cs",
-              "RelativeToolTip": "Controllers\\ToolItemsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T15:13:55.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CMP311\\ToolsAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\CMP311\\ToolsAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T15:11:25.334Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -60,7 +52,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "ToolItemsController.cs",
+              "DocumentMoniker": "C:\\CMP311\\ToolsAPI\\Controllers\\ToolItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ToolItemsController.cs",
+              "ToolTip": "C:\\CMP311\\ToolsAPI\\Controllers\\ToolItemsController.cs",
+              "RelativeToolTip": "Controllers\\ToolItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:13:55.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ToolContext.cs",
               "DocumentMoniker": "C:\\CMP311\\ToolsAPI\\Models\\ToolContext.cs",
               "RelativeDocumentMoniker": "Models\\ToolContext.cs",
@@ -73,15 +78,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ToolItem.cs",
               "DocumentMoniker": "C:\\CMP311\\ToolsAPI\\Models\\ToolItem.cs",
               "RelativeDocumentMoniker": "Models\\ToolItem.cs",
               "ToolTip": "C:\\CMP311\\ToolsAPI\\Models\\ToolItem.cs",
               "RelativeToolTip": "Models\\ToolItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T15:06:26.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToolItemDTO.cs",
+              "DocumentMoniker": "C:\\CMP311\\ToolsAPI\\Models\\ToolItemDTO.cs",
+              "RelativeDocumentMoniker": "Models\\ToolItemDTO.cs",
+              "ToolTip": "C:\\CMP311\\ToolsAPI\\Models\\ToolItemDTO.cs",
+              "RelativeToolTip": "Models\\ToolItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T16:09:46.756Z",
               "EditorCaption": ""
             }
           ]

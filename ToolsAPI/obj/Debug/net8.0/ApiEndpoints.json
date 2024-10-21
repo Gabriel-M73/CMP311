@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "ToolsAPI.Controllers.ToolItemsController",
+    "ContainingType": "ToolApi.Controllers.ToolItemsController",
     "Method": "GetToolItems",
     "RelativePath": "api/ToolItems",
     "HttpMethod": "GET",
@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ToolsAPI.Models.ToolItem, ToolsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ToolsAPI.Models.ToolItemDTO, ToolsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "ContainingType": "ToolsAPI.Controllers.ToolItemsController",
+    "ContainingType": "ToolApi.Controllers.ToolItemsController",
     "Method": "PostToolItem",
     "RelativePath": "api/ToolItems",
     "HttpMethod": "POST",
@@ -28,14 +28,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "toolItem",
-        "Type": "ToolsAPI.Models.ToolItem",
+        "Name": "toolDTO",
+        "Type": "ToolsAPI.Models.ToolItemDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ToolsAPI.Models.ToolItem",
+        "Type": "ToolsAPI.Models.ToolItemDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "ContainingType": "ToolsAPI.Controllers.ToolItemsController",
+    "ContainingType": "ToolApi.Controllers.ToolItemsController",
     "Method": "GetToolItem",
     "RelativePath": "api/ToolItems/{id}",
     "HttpMethod": "GET",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ToolsAPI.Models.ToolItem",
+        "Type": "ToolsAPI.Models.ToolItemDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "ContainingType": "ToolsAPI.Controllers.ToolItemsController",
+    "ContainingType": "ToolApi.Controllers.ToolItemsController",
     "Method": "PutToolItem",
     "RelativePath": "api/ToolItems/{id}",
     "HttpMethod": "PUT",
@@ -85,15 +85,15 @@
         "IsRequired": true
       },
       {
-        "Name": "toolItem",
-        "Type": "ToolsAPI.Models.ToolItem",
+        "Name": "toolDTO",
+        "Type": "ToolsAPI.Models.ToolItemDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ToolsAPI.Controllers.ToolItemsController",
+    "ContainingType": "ToolApi.Controllers.ToolItemsController",
     "Method": "DeleteToolItem",
     "RelativePath": "api/ToolItems/{id}",
     "HttpMethod": "DELETE",
@@ -107,26 +107,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ToolsAPI.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ToolsAPI.WeatherForecast, ToolsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]
