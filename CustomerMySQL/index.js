@@ -66,17 +66,56 @@ app.post('/api/customers', (req, res) => {
         database: "mydb"
     });
     con.connect(function(err) {
+        customerName = req.body.name;
+        customerAddress = req.body.address;
         if (err) throw err;
         console.log("Connected!");
-        var sql = "INSERT INTO customers (name, address) VALUES ('"+ customerName + "', '"+ customerAddress +"')";
+        var sql = "INSERT INTO customers (name, address) VALUES ('"+ customerName +"', '"+ customerAddress +"')";
         con.query(sql, function (err, result) {
           if (err) throw err;
           console.log("1 record inserted");
+          res.send(result);
         });
-      });
+    });
 });
 
+app.put('/api/customers/:id', (req, res) => {
+    let con = mysql.createConnection({
+        host: "localhost",
+        user: "Gabriel",
+        password: "Ninos35MGEL",
+        database: "mydb"
+    });
+    con.connect(function(err) {
+        customerName = req.body.name;
+        customerAddress = req.body.address;
+        if (err) throw err;
+        var sql = "UPDATE customers SET name = '"+ customerName +"', address = '"+ customerAddress +"' WHERE id = " + parseInt(req.params.id);
+        con.query(sql, function(err, result) {
+            if (err) throw err;
+            console.log(result.affectedRows + "record(s) updated");
+            res.send(result);
+        });
+    });
+});
 
+app.delete('/api/customers/:id', (req, res) => {
+    let con = mysql.createConnection({
+        host: "localhost",
+        user: "Gabriel",
+        password: "Ninos35MGEL",
+        database: "mydb"
+    });
+    con.connect(function(err) {
+        if (err) throw err;
+        var sql = "DELETE FROM customers WHERE id = " + parseInt(req.params.id);
+        con.query(sql, function (err, result) {
+          if (err) throw err;
+          console.log("Number of records deleted: " + result.affectedRows);
+          res.send(result);
+        });
+    });
+})
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listening on port ${port}`));
