@@ -95,8 +95,13 @@ app.put('/api/faculty/:id', (req, res) => {
         var sql = "UPDATE faculty SET facultyLast = '"+ facultyLastName +"', facultyFirst = '"+ facultyFirstName +"', facultyEmail = '"+ facultyEmail +"' WHERE id = " + parseInt(req.params.id);
         con.query(sql, function(err, result) {
             if (err) throw err;
-            console.log(result.affectedRows + "record(s) updated");
-            res.send(result);
+
+            if (result.affectedRows === 0) {
+                res.status(404).send('No faculty with that id was found');
+            } else {
+                    console.log(result.affectedRows + " record(s) updated");
+                    res.send(result);                            
+            }
         });
     });
 });
@@ -113,8 +118,13 @@ app.delete('/api/faculty/:id', (req, res) => {
         var sql = "DELETE FROM faculty WHERE id = " + parseInt(req.params.id);
         con.query(sql, function (err, result) {
           if (err) throw err;
-          console.log("Number of records deleted: " + result.affectedRows);
-          res.send(result);
+
+          if (result.affectedRows === 0) {
+            res.status(404).send('No student with that id was found');
+          } else {
+                console.log("Number of records deleted: " + result.affectedRows);
+                res.send(result);
+          }
         });
     });
 })

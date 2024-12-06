@@ -94,11 +94,13 @@ app.put('/api/students/:id', (req, res) => {
         if (err) throw err;
         var sql = "UPDATE students SET lastName = '"+ studentLastName +"', firstName = '"+ studentFirstName +"', studentEmail = '"+ studentEmail +"' WHERE id = " + parseInt(req.params.id);
         con.query(sql, function(err, result) {
-            if (err) throw err
-            else {
-                console.log(result.affectedRows + " record(s) updated");
-                if (result == "") return res.status(404).send('No student with that id was found');
-                            res.send(result);
+            if (err) throw err;
+
+            if (result.affectedRows === 0) {
+                res.status(404).send('No student with that id was found');
+            } else {
+                    console.log(result.affectedRows + " record(s) updated");
+                    res.send(result);                            
             }
         });
     });
@@ -116,8 +118,13 @@ app.delete('/api/students/:id', (req, res) => {
         var sql = "DELETE FROM students WHERE id = " + parseInt(req.params.id);
         con.query(sql, function (err, result) {
           if (err) throw err;
-          console.log("Number of records deleted: " + result.affectedRows);
-          res.send(result);
+          
+          if (result.affectedRows === 0) {
+            res.status(404).send('No student with that id was found');
+          } else {
+                console.log("Number of records deleted: " + result.affectedRows);
+                res.send(result);
+          }
         });
     });
 })
