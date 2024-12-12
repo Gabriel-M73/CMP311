@@ -114,13 +114,24 @@ app.delete('/api/faculty/:id', (req, res) => {
         database: "mydb"
     });
     con.connect(function(err) {
+        const facultyId = req.params.id;
+
+        const checkQuery = `SELECT COUNT(*) AS courseCount FROM courses WHERE facultyId = ?;`;
+        con.query(checkQuery, [facultyId], (err, result) => {
+            if (err) throw err;
+            const courseCount = result[0].courseCount;
+            if (courseCount > 0) {
+                return res.status(400).send('Faculty member cannot be deleted as they are assigned to one or more courses')
+            }
+        });
+
         if (err) throw err;
         var sql = "DELETE FROM faculty WHERE id = " + parseInt(req.params.id);
         con.query(sql, function (err, result) {
           if (err) throw err;
 
           if (result.affectedRows === 0) {
-            res.status(404).send('No student with that id was found');
+            res.status(404).send('No faculty with that id was found');
           } else {
                 console.log("Number of records deleted: " + result.affectedRows);
                 res.send(result);
