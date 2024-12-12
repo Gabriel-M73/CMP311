@@ -88,7 +88,7 @@ app.put('/api/faculty/:id', (req, res) => {
         database: "mydb"
     });
     con.connect(function(err) {
-        facultyLastName = req.body.lastNameame;
+        facultyLastName = req.body.facultyLast;
         facultyFirstName = req.body.facultyFirst;
         facultyEmail = req.body.facultyEmail;
         if (err) throw err;
@@ -123,20 +123,21 @@ app.delete('/api/faculty/:id', (req, res) => {
             if (courseCount > 0) {
                 return res.status(400).send('Faculty member cannot be deleted as they are assigned to one or more courses')
             }
-        });
 
-        if (err) throw err;
-        var sql = "DELETE FROM faculty WHERE id = " + parseInt(req.params.id);
-        con.query(sql, function (err, result) {
-          if (err) throw err;
+            if (err) throw err;
+            var sql = "DELETE FROM faculty WHERE id = " + parseInt(req.params.id);
+            con.query(sql, function (err, result) {
+            if (err) throw err;
 
-          if (result.affectedRows === 0) {
-            res.status(404).send('No faculty with that id was found');
-          } else {
-                console.log("Number of records deleted: " + result.affectedRows);
-                res.send(result);
+            if (result.affectedRows === 0) {
+                res.status(404).send('No faculty with that id was found');
+            } else {
+                    console.log("Number of records deleted: " + result.affectedRows);
+                    res.send(result);
           }
         });
+        });
+
     });
 })
 

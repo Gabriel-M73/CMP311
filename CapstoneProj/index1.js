@@ -88,7 +88,7 @@ app.put('/api/students/:id', (req, res) => {
         database: "mydb"
     });
     con.connect(function(err) {
-        studentLastName = req.body.lastNameame;
+        studentLastName = req.body.lastName;
         studentFirstName = req.body.firstName;
         studentEmail = req.body.studentEmail;
         if (err) throw err;
