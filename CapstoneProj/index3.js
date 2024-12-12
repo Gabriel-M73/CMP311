@@ -58,6 +58,32 @@ app.get('/api/courses/:id', (req, res) => {
     });
 });
 
+app.get('/api/courses/schedule/:facultyId', (req, res) => {
+    let con = mysql.createConnection({
+        host: "localhost",
+        user: "Gabriel",
+        password: "Ninos35MGEL",
+        database: "mydb"
+    });
+
+    con.connect(function(err) {
+        courseNumber = req.body.courseNum;
+        coursesName = req.body.courseName;
+        enrollmentLimit = req.body.enrollLimit;
+        courseFacultyId = req.body.facultyId;
+        if (err) throw err;
+        var sql = "SELECT c.courseNum, c.courseName, c.enrollLimit, f.facultyLast, f.facultyFirst, f.facultyEmail FROM courses AS c INNER JOIN faculty AS f ON c.facultyId = f.id WHERE f.id = " + parseInt(req.params.facultyId);
+        con.query(sql, function(err,result) {
+            if (err) throw err
+            else {
+                    console.log(result);
+                    if (result == "") return res.status(404).send('No records with that faculty id was found');
+                    res.json(result);
+            }
+        });
+    });
+});
+
 app.post('/api/courses', (req, res) => {
     let con = mysql.createConnection({
         host: "localhost",
